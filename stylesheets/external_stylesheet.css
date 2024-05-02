@@ -1,0 +1,38 @@
+/*
+    Culminating: Art Portfolio Website - External Stylesheet
+    Michelle Nguyen
+    IDC4U1
+    J. Cordiner
+    23/01/23
+*/
+
+
+/* SELECTING TAGS*/
+h1, h2, h3 {text-align: center; font-weight: bold}
+h1 {font-size: 60px}
+h2 {font-size: 36px; text-decoration: underline}
+h3 {text-decoration: dotted-underline}
+footer {text-align: right}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* SELECTING CLASSES*/
+a.preview {text-decoration: underline black dotted 2px}
+img.sample {
+    max-height: 200px;
+}
+.large {
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.caption {text-align: center}
+
+
+/* SELECTING IDs*/
+#home_icon {height: 40px}
+#banner {height: 150px}
