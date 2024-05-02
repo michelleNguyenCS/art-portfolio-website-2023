@@ -1,7 +1,7 @@
 IDC4U1 - Grade 12 Web Development Project\
 Creator: Michelle Nguyen\
 Date of Completion: 2023-01-23\
-Achieved Grade: 100%\
+Achieved Grade: 100%
 
 Program Description: A design sample of an art portfolio website containing my actual artwork.\
 I was focusing more on responsive design and efficient ways of styling elements rather than the appearance of the website.\
