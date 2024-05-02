@@ -1,4 +1,4 @@
-IDC4U1 - Grade 12 Web Development Project\
+**IDC4U1 - Grade 12 Web Development Project**\
 Creator: Michelle Nguyen\
 Date of Completion: 2023-01-23\
 Last Updated: 2024-05-02    <!-- Removed slightly sensitive text information --/>\
