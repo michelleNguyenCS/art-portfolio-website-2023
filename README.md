@@ -19,7 +19,7 @@ Required Files for Website:
 - silkscreen-font/
 - sprites/
 - stylesheets/
-- index.html         <!-- This is the homepage -->
+- index.html         <!-- This is the homepage --/>
 - ink_pencil.html
 - paint.html
 - other_media.html
