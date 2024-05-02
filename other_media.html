@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <!--
+        Culminating: Art Portfolio Website - Gallery for Other Media
+        Michelle Nguyen
+        IDC4U1
+        J. Cordiner
+        23/01/23
+        -->
+        <title>Other Media</title>
+        <script src = "https://cdn.jsdelivr.net/npm/p5@1.5.0/lib/p5.js"></script>
+        <script src = "./sketch.js"></script>
+
+        <!-- Columns will collapse into one when the screen width is 850px or less -->
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+        <link rel = "stylesheet" href = "stylesheets/w3.css">
+        <link rel = "stylesheet" href = "stylesheets/external_stylesheet.css">
+        <style>
+            video {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        </style>
+    </head>
+    
+
+    <body>
+        <!-- NAVIGATION BAR-->
+        <div class = "w3-bar w3-dark-gray">
+            <a href = "index.html">
+                <!-- icon src: https://www.nicepng.com/maxp/u2e6a9u2w7t4i1t4/ -->
+                <img id = "home_icon" class = "w3-bar-item w3-button" src = "icons/home.png" alt = "Home icon">
+            </a>
+            <!-- DROPDOWN MENU -->
+            <div class = "w3-dropdown-hover">
+                <button class = "w3-button">ART GALLERY</button>
+                <div class = "w3-dropdown-content w3-card-4">
+                    <a class = "w3-bar-item w3-button" href = "ink_pencil.html">Ink and Pencil</a>
+                    <a class = "w3-bar-item w3-button" href = "paint.html">Paint</a>
+                    <a class = "w3-bar-item w3-button" href = "other_media.html">Other Media</a>
+                </div>
+            </div>
+            <a class = "w3-bar-item w3-button" href = "form.html" target = "_blank">SUBMIT FORM</a>
+        </div>
+        <!-- END OF NAVIGATION BAR-->
+
+        <!-- HOMEPAGE CONTENT -->
+        <div class = "w3-cell-row">
+            <!-- LEFT COLUMN -->
+            <div class = "w3-container w3-cell w3-mobile" style = "width: 25%; background-color: #F7F7F2">
+                <h2>the artist</h2>
+                <img class = "sample" src = "icons/icon.PNG" alt = "Ghost representation of the artist">
+                <h4>michelle nguyen</h4>
+                <p class = "notranslate">
+                    <a href = "index.html">thiswebsite.com</a><br>
+                    <a href="mailto:michelle.nguyen14@student.tdsb.on.ca">myemail@gmail.com</a><br>
+                    647-123-444<br>
+                    toronto, ontario, ABC<br>
+                </p>
+                <!-- CONNECT BUTTON -->
+                <a href = "form.html" target = "_blank" style = "text-decoration: none">
+                    <button class = "w3-button w3-block w3-hover-gray" style = "background-color: #EBA272;">
+                        Connect
+                    </button>
+                </a>
+                <!-- END OF CONNECT BUTTON -->
+                <h4>about the artist</h4>
+                <p>
+                    Hobbyist artist located in Toronto, Ontario. Doing art on the side while pursuing Computer 
+                    Science as a career. Hoping to build artistic skills throughout the years as a personal goal.
+                </p>
+            </div>
+            <!-- END OF LEFT COLUMN -->
+
+            <!-- RIGHT COLUMN -->
+            <div class = "w3-container w3-cell w3-mobile" style = "width: 75%; background-color: #ebebe4; padding-bottom: 30px">
+                <div class = "w3-card-4 w3-dark-gray">
+                    <h1>other media</h1>
+                    <img id = "banner" src = "icons/icon.PNG" style = "padding-bottom: 40px" alt = "Ghost representation of the artist">
+                </div>
+                <!-- PREVIEW -->
+                <h2>artworks</h2>
+                <div class = "w3-cell-row">
+                    <div class = "w3-container w3-cell w3-mobile" style = "width: 30px">
+                        <img class = "sample" src = "images/om_candle.PNG" alt = "Collage and Ink Candle">
+                        <p class = "caption notranslate">
+                            "Candle Light"<br>
+                            March 2022
+                        </p>
+                    </div>
+                    <div class = "w3-container w3-cell w3-mobile" style = "width: 40px">
+                        <img class = "sample" src = "images/om_collage.PNG" alt = "Collaged Portrait">
+                        <p class = "caption notranslate">
+                            "Collage Portrait"<br>
+                            May 2022
+                        </p>
+                    </div>
+                    <div class = "w3-container w3-cell w3-mobile" style = "width: 30px">
+                        <img class = "sample" src = "images/om_river.PNG" alt = "Painted Collaged River">
+                        <p class = "caption notranslate">
+                            "River"<br>
+                            June 2022
+                        </p>
+                    </div>
+                </div>
+                <h2>animations</h2>
+                <p style = "text-align: center"><span id = "sketch-holder" style></span></p>
+                <p class = "caption notranslate">
+                    A Good Day<br>
+                    January 2023<br>
+                    *Visual Studio Code must be running*
+                </p>
+                <!-- END OF PREVIEW -->
+                <div class = "w3-panel w3-dark-gray">
+                    <h2 style = "text-decoration-line: none">gallery</h2>
+                </div>
+                <img class = "large" src = "images/om_candle.PNG" alt = "Collage and Ink Candle">
+                <img class = "large" src = "images/om_collage.PNG" alt = "Collaged Portrait">
+                <img class = "large" src = "images/om_river.PNG" alt = "Painted Collaged River">
+                <video width = "500" autoplay muted>
+                    <!-- a video is not an image but it is stored in the "images" folder for organization -->
+                    <source src = "images/good_day.mp4" type = "video/mp4">
+                </video>
+            </div>
+            <!-- END OF RIGHT COLUMN -->
+        </div>
+        <!-- END OF HOMEPAGE CONTENT -->
+
+
+        <!-- FOOTER -->
+        <footer class = "w3-panel w3-dark-gray">
+            <p>@ michelle nguyen</p>
+        </footer>
+        <!-- END OF FOOTER -->
+    </body>
+</html>
