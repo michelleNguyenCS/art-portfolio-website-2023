@@ -5,7 +5,7 @@ Last Updated: 2024-05-02    <!-- Removed slightly sensitive text information --/
 Achieved Grade: 100%
 
 Program Description: A design sample of an art portfolio website containing my actual artwork.\
-I was focusing more on responsive design and efficient ways of styling elements rather than the appearance of the website.\
+I was focusing more on responsive design and efficient ways of styling elements, so the appearance of the website might look a bit sloppy.\
 Languages: HTML, CSS, JavaScript
 
 Some Concepts Studied:
