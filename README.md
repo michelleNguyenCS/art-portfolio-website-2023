@@ -27,8 +27,10 @@ Required Files for Website:
 - form.html
 - sketch.js
 
-To Run on Visual Studio Code:
+To Run on Visual Studio Code (at least on my end):
 - p5.vscode (Sam Lavigne) needs to be installed
+- Live Server (Ritwick Dey) needs to be installed
+
 
 Note:\
 On "other_media.html" aka the "other media" webpage, the javascript file will start lagging the page if you let it run for too long.\
