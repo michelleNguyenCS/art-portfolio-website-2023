@@ -27,9 +27,8 @@ Required Files for Website:
 - form.html
 - sketch.js
 
-To Run on Visual Studio Code (at least on my end):
-- p5.vscode (Sam Lavigne) needs to be installed
-- Live Server (Ritwick Dey) needs to be installed
+One Way Run on Visual Studio Code (at least on my end):
+- Live Server (Ritwick Dey) can be installed for the javascript animation to run, and you run the webpage through Visual Studio Code
 
 
 Note:\
